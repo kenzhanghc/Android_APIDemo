@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/photo_activity_background"
+    tools:context="com.example.photo.PhotoActivity">
+
+    <Button
+        android:id="@+id/btn_take_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/photo_activity_btn_blue"
+        android:text="@string/photo_activity_btn_take"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btn_choose_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/photo_activity_btn_blue"
+        android:text="@string/photo_activity_btn_choose"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn_take_photo"
+        android:layout_marginTop="@dimen/photo_activity_btn_choose_margin_top"/>
+
+    <ImageView
+        android:id="@+id/image_get_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn_choose_photo"
+        android:layout_marginTop="@dimen/photo_activity_image_get_margin_top"/>
+
+
+</RelativeLayout>

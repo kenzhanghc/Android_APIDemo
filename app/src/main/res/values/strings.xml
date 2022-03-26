@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyAllDemo</string>
+    <string name="photo_activity_btn_take">拍照</string>
+    <string name="photo_activity_btn_choose">选取照片</string>
+</resources>

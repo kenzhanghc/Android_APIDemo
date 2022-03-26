@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="photo_activity_btn_choose_margin_top">20dp</dimen>
+    <dimen name="photo_activity_image_get_margin_top">30dp</dimen>
+</resources>
