@@ -5,6 +5,9 @@
       <map>
         <entry key="..\:/AndroidStudioProjects/MyAllDemo/app/src/main/res/layout/activity_main.xml" value="0.24947916666666667" />
         <entry key="..\:/AndroidStudioProjects/MyAllDemo/app/src/main/res/layout/photo_activity.xml" value="0.536" />
+        <entry key="..\:/AndroidStudioProjects/MyAllDemo/app/src/main/res/layout/screen_activity.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/MyAllDemo/app/src/main/res/layout/shared_preferences_activity.xml" value="0.536" />
+        <entry key="..\:/AndroidStudioProjects/MyAllDemo/app/src/main/res/layout/show_view_activity.xml" value="0.24947916666666667" />
       </map>
     </option>
   </component>

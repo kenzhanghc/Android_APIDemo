@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:gravity="center"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.customizeview.ShowViewActivity">
+
+
+    <com.example.customizeview.MyRelative
+        android:id="@+id/my_view"
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        app:border_width="10dp"
+        app:inner_color="@color/sandy_brown"
+        app:outer_color="@color/blue_violet"
+        app:step_text_color="@color/salmon"
+        app:step_text_size="30dp" />
+
+    <com.example.customizeview.CircleLoadingView
+        android:id="@+id/circleloading"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="15dp"
+        app:text_size="30dp"
+        app:dot_color="@color/aqua"
+        app:text_color="@color/blue_violet"
+        app:in_color="@color/blue_violet"
+        app:out_color="@color/sandy_brown" />
+
+</LinearLayout>

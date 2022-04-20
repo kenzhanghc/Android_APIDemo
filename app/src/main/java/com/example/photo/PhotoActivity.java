@@ -25,11 +25,12 @@ import com.example.myalldemo.R;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+
 /**
  * 2022年3月27日
  * 编写了拍照返回照片的操作
  * 注：不在UI线程中进行耗时操作，避免出现ANR
- * */
+ */
 public class PhotoActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Button mBtnTakePhoto;
@@ -71,18 +72,23 @@ public class PhotoActivity extends AppCompatActivity implements View.OnClickList
         }
     }
 
+    Handler handler;
+
+    {
+        handler = new Handler() {
+            @Override
+            public void handleMessage(@NonNull Message msg) {
+                mImageGetPhoto.setImageBitmap(mBitmap);
+            }
+        };
+    }
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         switch (requestCode) {
             case TAKE_PHOTO:
                 if (resultCode == RESULT_OK) {
-                    Handler handler = new Handler() {
-                        @Override
-                        public void handleMessage(@NonNull Message msg) {
-                            mImageGetPhoto.setImageBitmap(mBitmap);
-                        }
-                    };
 
                     Thread thread = new Thread() {
                         @Override

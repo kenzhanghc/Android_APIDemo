@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyRelative">//这个name最好和你创建的自定义View类名一样
+        <!--外圆颜色-->
+        <attr name="outer_color" format="color" />
+        <!--内圆颜色-->
+        <attr name="inner_color" format="color" />
+        <!--圆形宽度-->
+        <attr name="border_width" format="dimension" />
+        <!--字体颜色-->
+        <attr name="step_text_color" format="color" />
+        <!--字体大小-->
+        <attr name="step_text_size" format="dimension" />
+        <!--步数最大值-->
+        <attr name="max_step" format="integer" />
+        <!--当前步数-->
+        <attr name="curren_step" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleLoadingView">
+        <!--内圆颜色-->
+        <attr name="in_color" format="color" />
+        <!--外圆颜色-->
+        <attr name="out_color" format="color" />
+        <!--字体颜色-->
+        <attr name="text_color" format="color" />
+        <!--字体大小-->
+        <attr name="text_size" format="dimension" />
+        <!--圆圈颜色-->
+        <attr name="dot_color" format="color" />
+    </declare-styleable>
+</resources>

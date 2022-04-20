@@ -9,4 +9,10 @@
     <color name="white">#FFFFFFFF</color>
     <color name="photo_activity_background">#BDBF9A</color>
     <color name="photo_activity_btn_blue">#1BC3B5</color>
+    <color name="salmon">#F44336</color>
+    <color name="sandy_brown">#D5CDCC</color>
+    <color name="antique_white">#FFFFFF</color>
+    <color name="blue_violet">#2196F3</color>
+    <color name="aqua">#F44336</color>
+
 </resources>
